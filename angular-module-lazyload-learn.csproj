@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\components\counter\counter.module.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\counter\counter.routes.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\home\hello.service.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\home\home.module.ts" />

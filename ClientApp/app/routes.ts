@@ -3,7 +3,8 @@ import { ModuleWithProviders } from "@angular/core";
 
 const appRoutes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
-    //{ path: "product", loadChildren: "app/product/product.module#ProductModule" }
+    { path: "counter", loadChildren: "counter.module#CounterModule" }
+    //{ path: "counter", loadChildren:"./components/counter/counter.module#CounterModule"}
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(appRoutes);
