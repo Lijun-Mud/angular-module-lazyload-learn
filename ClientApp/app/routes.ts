@@ -3,7 +3,7 @@ import { ModuleWithProviders } from "@angular/core";
 
 const appRoutes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
-    { path: "counter", loadChildren: "counter.module#CounterModule" }
+    //{ path: "counter", loadChildren: "counter.module#CounterModule" }
     //{ path: "counter", loadChildren:"./components/counter/counter.module#CounterModule"}
 ];
 

@@ -8,7 +8,7 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { routes } from "./routes";
 import { HomeModule } from "./components/home/home.module";
 import { AboutModule } from "./components/about/about.module";
-//import {CounterModule } from "./components/counter/counter.module"
+import {CounterModule } from "./components/counter/counter.module"
 
 @NgModule({
     declarations: [
@@ -22,7 +22,7 @@ import { AboutModule } from "./components/about/about.module";
         routes,
         HomeModule,
         AboutModule,
-        //CounterModule,
+        CounterModule,
     ]
 })
 export class AppModuleShared {
