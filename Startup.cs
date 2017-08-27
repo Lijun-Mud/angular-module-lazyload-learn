@@ -34,6 +34,8 @@ namespace angular_module_lazyload_learn
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
                     HotModuleReplacement = true
+                    //HotModuleReplacementEndpoint = "../../dist/__webpack_hmr",
+                    //webpack_public_path
                 });
             }
             else
