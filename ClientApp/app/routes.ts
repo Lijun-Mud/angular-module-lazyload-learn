@@ -1,6 +1,5 @@
 ﻿import { Routes, RouterModule } from "@angular/router";
 import { ModuleWithProviders } from "@angular/core";
-//import {CounterModule} from "./components/counter/counter.module";
 
 const appRoutes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
