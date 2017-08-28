@@ -21,6 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\app\components\about\about.parameter.ts" />
+    <None Remove="ClientApp\app\components\about\sub\about.sub.ts" />
     <None Remove="ClientApp\app\components\counter\counter.routes.ts" />
     <None Remove="ClientApp\app\components\home\hello.service.ts" />
     <None Remove="ClientApp\app\components\home\home.module.ts" />
@@ -29,6 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\components\about\about.parameter.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\about\sub\about.sub.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\counter\counter.module.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\counter\counter.routes.ts" />
     <TypeScriptCompile Include="ClientApp\app\components\home\hello.service.ts" />
